@@ -1,0 +1,15 @@
+{
+  "control_tower": [
+    {"series":"Core CPI MoM","latest":0.3,"previous":0.2,"consensus":0.2,"trend":"sticky","regime_signal":"inflation risk","market_impact":"bearish duration"},
+    {"series":"Core PCE YoY","latest":2.9,"previous":3.0,"consensus":2.9,"trend":"cooling","regime_signal":"neutral","market_impact":"supports cuts"},
+    {"series":"NFP","latest":184000,"previous":162000,"consensus":170000,"trend":"resilient","regime_signal":"growth resilient","market_impact":"supports cyclicals"}
+  ],
+  "calendar": [
+    {"date":"2026-03-18","time_et":"14:00","event":"FOMC","category":"Fed","tier":1,"previous":"4.25-4.50","consensus":"Hold"},
+    {"date":"2026-03-27","time_et":"08:30","event":"PCE","category":"Inflation","tier":1,"previous":"0.2%","consensus":"0.3%"}
+  ],
+  "ownership_warnings": [
+    {"label":"Delayed dataset","detail":"13F holdings may be up to 45 days stale from quarter-end."},
+    {"label":"Delayed dataset","detail":"CFTC COT positions reflect Tuesday and are usually released Friday."}
+  ]
+}
